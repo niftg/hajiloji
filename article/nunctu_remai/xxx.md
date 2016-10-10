@@ -1,42 +1,9 @@
 ---
-layout: post_not_ctuca_not_prulahi
+layout: post_not_ctuca
 title: 指導書・仕様書・案件
 date: 2015-7-20
-bavlahi: 1
 ---
 {% include icons.md %}
-
-## 発音・アルファベット・アクセント
-
-### 発音について
-
-異音の概念について触れる？
-
-### アルファベット
-
-試験的cmavoの a'y などに触れると共に、HやQについても触れる。
-
-### アクセントと正書法
-
-アクセント明示の方法として、大文字を用いる方法に触れる。  
-また、時々みかける、アキュートを使った方法にも触れる。
-
-## 品詞
-brivla３分類について取り扱う。gismu, lujvo, fu'ivla
-
-さらに、セルマホについても取り扱い、同セルマホの単語は同じ構文的挙動を示すことを明らかにする。
-
-またロジバンの文法用語（bridi, jufra, sumti, sumsmi, selbri, selbrisle)についても触れる。
-
-## PS（位置構造）
-
-PSの理解を深める。主に、テンプレート型定義の脆弱性（翻訳言語のコンタミネーション）について知る。
-
-- 態
-- 主語（主題）（項のヒエラルキー）
-- 時制・相・性
-
-テンプレート型定義がPSの１つの側面にすぎないことを強調した上で理解していくように仕向ける。
 
 ## tanru
 
@@ -44,32 +11,15 @@ bo, ke, co について紹介する。また、tanru接続詞（jV）もここ�
 
 また tanru の面白みとして、tanru俳句を考えさせてもよい。
 
-## 冠詞
-
-ニューゲームで出てきた冠詞を総ざらいする。  
-
-非分配的冠詞や、集合冠詞を取り上げる[要考慮]。
-
-[非分配的冠詞を取り上げるためには、分配性について取り上げないといけない]
-
-## SE類
-
-[特に導入するものがない]
-
-[一案として、述なれ語の頭にくっつき、新たな述なれ語とする文法要素の復習をするのはいいかもしれない]  
-[そうであるなら、タイトルは、「selbriを取り巻く文法（peg:tanru-unit-2）」だろうか]
-
-## FA類
-
-[これも特に導入するものがない]
-
-[一案として、sumsmi総ざらい(peg:term)はありかもしれない。（とはいえ、tag, sumti, tag-sumti, nakuくらいだが）]
 
 ## 抽象詞
 
-NU類の残りについて。つまり、ni, li'i, jei に加え、mu'e, pu'u, za'i, zu'o について触れる。
+NU類の残りについて。つまり、ni, li'i, jei, si'o に加え、mu'e, pu'u, za'i, zu'o について触れる。
 
-[これらすべてをする必要はあるか。]
+[これらすべてをする必要はあるか。というより、かなり独自研究の域になりそうで怖い。]
+
+この章は大分必要性に疑問があるな…。とりあえず総ざらいということで nu, du'u, ka には触れたい。
+
 
 ## 間制
 
@@ -79,10 +29,7 @@ NU類の残りについて。つまり、ni, li'i, jei に加え、mu'e, pu'u, z
 
 空間制なら (FAhA VA)+ space-interval:((VEhA VIhA) FAhA (FEhE interval-property)+)
 
-それから、CAhAについても言及すべきかもしれない。
-
-[NAhE, NAIの処理はどうするか？初版でも触れていないので、パスか？  
-実際、そこまで使われていないので、パスでいいかもしれない]
+それから、ki, CAhAについても言及すべきかもしれない。
 
 
 ## 相制
@@ -98,41 +45,87 @@ natural point に関わる相、残りの相について。
 - 接続用法
 - 前置タグ
 
-## 否定
-
-特に無い
+プラス fi'o fe'u
 
 ## 疑問
 
 疑問語の総ざらい
 
-## 命令
-
-特にない
+[補助資料でよくない？]
 
 ## 関係詞
 
 vu'o の導入
 
-## 縛位詞
 
-特に無い
+## 冠詞
+
+ニューゲームで出てきた冠詞を総ざらいする。（lo,le,la,liくらい？）  
+la が述なれ語に冠せることも触れる。
+
+非分配的冠詞や、集合冠詞を取り上げる[要考慮]。  
+[非分配的冠詞を取り上げるためには、分配性について取り上げないといけない]
+
+
+## 限定詞
+これのためには分配性の議論が必要
 
 ## 数詞
 
 色々とやらなくてはいけないことがある。ボリューミーかもしれない
 
-## 引用
-
-experimental cmavo に触れる？ lo'ai ... sa'ai ... le'ai に触れてもいいかもしれない。
 
 ## 接続詞
 
 多分特にない
 
-## 代詞
+ベン図？
 
-多分特にない
+.e と jo'u の違いとか、joiとかceとか。
+
+![koc4]  
+お疲れ様……と、言いたいところなんだけど、実はあともうひとつ、タグの文接続詞的な用法を紹介して終わろうかな…と…。
+
+![sor3]  
+とっととやってください！もうっ！
+
+![koc3]  
+すみません…。えっと、タグは **.i + [タグ] + bo** の形で文を繋げる接続詞のように振る舞います。  
+この場合、**[タグ]に後ろの文（を抽象詞でくるんだもの）がくっついたような意味になります** 。えっと、つまり、
+
+　　[文A] <b>.i [タグ] bo</b> [文B] = [文A] <b>[タグ]</b> lo nu [文B]
+
+という感じになります。なので、{.i se ki'u bo} で「～だから...だ」という意味になります。
+
+{:.jufra}
+- mi tatpi <b>.i se ki'u bo</b> mi djica lo nu kelci lo tsasmani
+  - 私は疲れたので、ゴリラで遊びたい。
+
+<dl class="valsi">
+<dt>djica</dt>
+<dd >x1 は x2 （事）を x3 （目的）のために欲する／求める</dd>
+<dt>se ki'u</dt>
+<dd >法制タグ； krinu x2 「を（理由によって）起こして」</dd>
+</dl>
+
+![sor3]  
+お疲れ様でした……異様に長かった……ほんとゴリラと遊びた…
+
+![sor5]  
+…くはないな？？
+
+<div class="box">
+<p>彼女らがヘトヘトなので、ひとつだけ私（no'u la .cogas.）から追記です。</p>
+
+<p>法制タグについては上の通りなのですが、PU類やFAhA類といった間制では逆になることを覚えていてください。つまり、</p>
+
+<p>[文A] <b>.i [間制タグ] bo</b> [文B] = [文B] <b>[間制タグ]</b> lo nu [文A]</p>
+
+<p>となります。{mi cikna .ibabo mi kelci lo tsasmani}は「私は起き、その後、ゴリラで遊んだ」となります。<br>
+この仕様は法制タグと統一性がありませんが、ba が「未来」をイメージするので、<br>
+次に続くものが未来であるように設計したのだと思います。</p>
+
+</div>
 
 ## UI類
 
@@ -179,7 +172,44 @@ problem:::
 上の３つの文を、すべて冠頭のある形に書き直せ。例として１つ目だけ答えを書く。
 
 1. pa ti blanu <b>= pa da poi ke'a me ti zo'u da blanu</b>
-2. ro ma'a ninmu 
+2. ro ma'a ninmu
 3. re lo mu verba cu sipna
 
 ::::
+
+## 品詞
+brivla３分類について取り扱う。gismu, lujvo, fu'ivla → 補助資料でじゅうぶん。
+
+## SE類
+
+[特に導入するものがない]
+
+[一案として、述なれ語の頭にくっつき、新たな述なれ語とする文法要素の復習をするのはいいかもしれない]  
+[そうであるなら、タイトルは、「selbriを取り巻く文法（peg:tanru-unit-2）」だろうか]
+
+`tanru-unit-2 ← BRIVLA-clause free* / GOhA-clause RAhO-clause? free* / KE-clause free* selbri-3 KEhE-clause? free* / ME-clause free* (sumti / lerfu-string) MEhU-clause? free* MOI-clause? free* / (number / lerfu-string) MOI-clause free* / NUhA-clause free* mex-operator / SE-clause free* tanru-unit-2 / JAI-clause free* tag? tanru-unit-2 / NAhE-clause free* tanru-unit-2 / NU-clause NAI-clause? free* (joik-jek NU-clause NAI-clause? free*)* subsentence KEI-clause? free*`
+
+とはいえ、ニューゲで取り扱ったものは、SE, NAhEくらい。
+
+いっそ、『述なれ語大全』にする？それなら、…でも brivla, GOhA, ME sumti, NU subsentence KEI くらいか…。
+
+[MOIってやってなかったんやな]
+
+まあこの辺りを総なめしよう。
+
+JAI tag? はどこかで扱いたい気もする。
+
+[補助資料でよくない？]
+
+## FA類
+
+[これも特に導入するものがない]
+
+[一案として、sumsmi総ざらい(peg:term)はありかもしれない。（とはいえ、tag, sumti, tag-sumti, nakuくらいだが）]
+
+SE/FA は一章で扱いきるつもりだったので、述なれ語／項様体大全あたりをこしらえたらいいかもしれん。
+
+[補助資料でよくない？]
+
+## PSの傾向
+[補助資料]

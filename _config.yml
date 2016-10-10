@@ -1,21 +1,16 @@
-permalink: :categories/
 
 # Site settings
 lang: ja
 title: はじめてのロジバン 第２版
-email: ""
 author:
-  name: cogas
+  name: cogas.iuk.uasanbon
   email: cheeky.chic.chick@gmail.com
 
 url: "http://cogas.github.io"
 baseurl: "/hajiloji" # the subpath of your site, e.g. /blog/
-
-relative_permalinks: true
 
 twitter_username: oka_iu_tcan
 github_username:  cogas
 
 # Build settings
 markdown: kramdown
-
